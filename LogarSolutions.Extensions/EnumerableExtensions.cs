@@ -6,11 +6,10 @@ using JetBrains.Annotations;
 namespace LogarSolutions.Extensions
 {
     /// <summary>
-    /// Enumerable extensions
+    ///     Enumerable extensions
     /// </summary>
     public static class EnumerableExtensions
     {
-
         /// <summary>
         ///     Checks if IEnumerable is null or has no elements
         /// </summary>
@@ -40,11 +39,11 @@ namespace LogarSolutions.Extensions
         /// <summary>
         ///     Distinct by property specified
         /// </summary>
-        /// <typeparam name="TSource"></typeparam>
-        /// <typeparam name="TKey"></typeparam>
-        /// <param name="source"></param>
-        /// <param name="keySelector"></param>
-        /// <returns></returns>
+        /// <typeparam name="TSource">Type of source enumerable</typeparam>
+        /// <typeparam name="TKey">Type of key selector</typeparam>
+        /// <param name="source">Source enumerable</param>
+        /// <param name="keySelector">Lambda key selector</param>
+        /// <returns>Enumerable with no duplicates filtered by given key</returns>
         public static IEnumerable<TSource> DistinctBy<TSource, TKey>
             (this IEnumerable<TSource> source, Func<TSource, TKey> keySelector)
         {
@@ -64,11 +63,11 @@ namespace LogarSolutions.Extensions
         /// <typeparam name="T">Enumerable item type</typeparam>
         /// <param name="items">Input items</param>
         /// <param name="maxItems">Max batch size</param>
-        /// <returns></returns>
+        /// <returns>Multiple enumerable</returns>
         public static IEnumerable<IEnumerable<T>> Batch<T>(this IEnumerable<T> items, int maxItems)
         {
             return items.Select((item, inx) => new {item, inx})
-                .GroupBy(x => x.inx/maxItems)
+                .GroupBy(x => x.inx / maxItems)
                 .Select(g => g.Select(x => x.item));
         }
     }

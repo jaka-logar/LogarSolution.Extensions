@@ -2,6 +2,9 @@
 
 namespace LogarSolutions.Extensions
 {
+    /// <summary>
+    ///     Object extensions
+    /// </summary>
     public static class ObjectExtensions
     {
         /// <summary>
