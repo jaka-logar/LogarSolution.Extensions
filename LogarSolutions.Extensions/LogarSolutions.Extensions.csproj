@@ -4,9 +4,14 @@
     <TargetFrameworks>netstandard1.4;net45</TargetFrameworks>
     <Authors>Jaka Logar</Authors>
     <Company />
-    <Description>Useful extension methods</Description>
+    <Title>LogarSolutions extension methods</Title>
+    <Description>Simple and very helpful extension methods. Some Enumerable extension, Object extension and String extension methods.</Description>
     <PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</PackageLicenseUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/jaka-logar/LogarSolutions.Extensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jaka-logar/LogarSolutions.Extensions</RepositoryUrl>
+    <PackageTags>helpers, extensionmethods</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(TargetFramework)'=='netstandard1.4'">
