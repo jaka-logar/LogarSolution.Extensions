@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogarSolutions.Extensions", "LogarSolutions.Extensions\LogarSolutions.Extensions.csproj", "{9B06CA43-6826-4876-9285-D4ECDBFF2A79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogarSolutions.Extensions", "LogarSolutions.Extensions\LogarSolutions.Extensions.csproj", "{9B06CA43-6826-4876-9285-D4ECDBFF2A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogarSolutions.Extensions.Tests", "LogarSolutions.Extensions.Tests\LogarSolutions.Extensions.Tests.csproj", "{EC2244C3-A6B4-4AA2-9316-F817095F3F1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9B06CA43-6826-4876-9285-D4ECDBFF2A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B06CA43-6826-4876-9285-D4ECDBFF2A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B06CA43-6826-4876-9285-D4ECDBFF2A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC2244C3-A6B4-4AA2-9316-F817095F3F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2244C3-A6B4-4AA2-9316-F817095F3F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2244C3-A6B4-4AA2-9316-F817095F3F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2244C3-A6B4-4AA2-9316-F817095F3F1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
