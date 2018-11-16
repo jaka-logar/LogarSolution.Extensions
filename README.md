@@ -9,64 +9,64 @@ Available also as NuGet package.
 
 # Enumerable extensions
 
-**IsEmpty**
+**IsEmpty**\
 Checks if IEnumerable is null or has no elements.
 
-**AddIfNotNull**
+**AddIfNotNull**\
 Add item to list if item is not null.
 
-**DistinctBy**
+**DistinctBy**\
 Distinct by property specified.
 
-**Batch**
+**Batch**\
 Create multiple enumerable batches with max elements.
 
 # Object extensions
 
-**NullCheck**
+**NullCheck**\
 Throw exception if null.
 
-**IsNullOrDefault**
+**IsNullOrDefault**\
 Is null or default value.
 
 
 # String extensions
 
-**IsNullOrEmpty**
+**IsNullOrEmpty**\
 Check if string is null or empty.
 
-**IsNullOrWhiteSpace**
+**IsNullOrWhiteSpace**\
 Check if string is null or whitespace.
 
-**IsAllUpper**
+**IsAllUpper**\
 Check if given string has all upper characters.
 
-**FirstLetterToUpper**
+**FirstLetterToUpper**\
 Change input string that first character is capitalize.
 
-**SafeToUpper**
+**SafeToUpper**\
 Safe to upper case. Empty string if input is null.
 
-**SafeToLower**
+**SafeToLower**\
 Safe to lower case. Empty string if input is null.
 
-**ToSafeString**
+**ToSafeString**\
 ToString representation of an object; Empty string if object is null or in case of exception.
 
-**SafeTrim**
+**SafeTrim**\
 Trim string if string is not empty otherwise return empty string.
 
-**SafeSubstring**
+**SafeSubstring**\
 Get safe substring of a string or empty string.
 
-**ToSafeLong**
+**ToSafeLong**\
 Parse string to long. Default return value if parse fails.
 
-**Contains**
+**Contains**\
 String contains extension method with ignore case possibility.
 
-**ConcatValues**
+**ConcatValues**\
 Concatenate values with given separator.
 
-**AfterCharSubstring**
+**AfterCharSubstring**\
 Get substring after first occurrence of input character.
