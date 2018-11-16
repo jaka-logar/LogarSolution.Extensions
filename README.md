@@ -1,6 +1,6 @@
 # LogarSolutions.Extensions
 
-Simple and very helpful extension methods used in every solution. Both for .NET Framework 4.5 and .NET Standard 1.4
+Simple and very helpful extension methods used in every solution. Both for .NET Framework 4.5 and .NET Standard 1.4\
 Available also as NuGet package.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/oq1wa9ua66bor3de?svg=true)](https://ci.appveyor.com/project/jaka-logar/logarsolutions-extensions)
