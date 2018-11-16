@@ -1,0 +1,6 @@
+language: csharp
+solution: LogarSolutions.Extensions.sln
+dotnet: 1.6.1
+script:
+  - xbuild /p:Configuration=Release LogarSolutions.Extensions.sln
+  - mono ./packages/xunit.runners.*/tools/xunit.console.clr4.exe ./LogarSolutions.Extensions.Tests/bin/Release/LogarSolutions.Extensions.Tests.dll
